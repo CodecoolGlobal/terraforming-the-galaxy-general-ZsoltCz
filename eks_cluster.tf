@@ -8,3 +8,8 @@ data "aws_availability_zones" "available" {
     values = ["opt-in-not-required"]
   }
 }
+
+locals {
+  vpc_name = "tf-galaxy-vpc-zsolt"
+  cluster_name = "tf-galaxy-cluster-zsolt"
+}
