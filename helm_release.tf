@@ -9,3 +9,8 @@ provider "helm" {
     }
   }
 }
+
+resource "helm_release" "this" {
+  name = var.helm_release_name
+  chart = "./chart"
+}
