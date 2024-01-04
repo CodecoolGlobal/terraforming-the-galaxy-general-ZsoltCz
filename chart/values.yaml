@@ -1,0 +1,9 @@
+app:
+  name: helloworld
+  image: zsoltcz/helloworld-prom:1.0
+prometheus:
+  name: prometheus
+  image: prom/prometheus:v2.45.2
+grafana:
+  name: grafana
+  image: grafana/grafana:10.0.10-ubuntu
