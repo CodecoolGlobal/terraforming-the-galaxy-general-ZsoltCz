@@ -1,5 +1,8 @@
 terraform {
 
+  backend "http" {
+  }
+
   required_providers {
 
     aws = {
