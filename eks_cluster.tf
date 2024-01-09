@@ -10,8 +10,8 @@ data "aws_availability_zones" "available" {
 }
 
 locals {
-  vpc_name = "tf-galaxy-vpc-zsolt"
-  cluster_name = "tf-galaxy-cluster-zsolt"
+  vpc_name = "tfgalaxy-vpc-zsolt"
+  cluster_name = "tfgalaxy-cluster-zsolt"
 }
 
 module "vpc" {
